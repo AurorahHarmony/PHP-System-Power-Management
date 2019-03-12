@@ -4,7 +4,7 @@
 <head>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title>Stardust</title>
+   <title>Power Management</title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
    <script src="main.js"></script>
@@ -25,6 +25,7 @@
          font-size: 1rem;
          font-weight: bolder;
          color: rgb(76, 0, 138);
+         min-height: 30vh;
       }
       #restart{
          background: #a5ebfe;
@@ -50,7 +51,7 @@
 
 function shutdownNow()
 {
-   exec('sudo shutdown now');
+ exec('sudo shutdown now');
 }
 
 function restartNow()
